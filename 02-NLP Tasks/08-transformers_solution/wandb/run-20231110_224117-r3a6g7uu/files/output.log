@@ -1,0 +1,30 @@
+
+You're using a BertTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+d:\anaconda\envs\roboflow\lib\site-packages\torch\utils\checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+{'loss': 0.6522, 'learning_rate': 1.9082568807339454e-05, 'epoch': 0.05}
+{'loss': 0.6564, 'learning_rate': 1.81651376146789e-05, 'epoch': 0.09}
+{'loss': 0.6442, 'learning_rate': 1.724770642201835e-05, 'epoch': 0.14}
+{'loss': 0.6384, 'learning_rate': 1.63302752293578e-05, 'epoch': 0.18}
+{'loss': 0.6341, 'learning_rate': 1.541284403669725e-05, 'epoch': 0.23}
+{'loss': 0.6306, 'learning_rate': 1.4495412844036698e-05, 'epoch': 0.27}
+{'loss': 0.6536, 'learning_rate': 1.3577981651376149e-05, 'epoch': 0.32}
+{'loss': 0.6606, 'learning_rate': 1.2660550458715597e-05, 'epoch': 0.37}
+{'loss': 0.6313, 'learning_rate': 1.1743119266055047e-05, 'epoch': 0.41}
+{'loss': 0.6214, 'learning_rate': 1.0825688073394496e-05, 'epoch': 0.46}
+{'loss': 0.6073, 'learning_rate': 9.908256880733946e-06, 'epoch': 0.5}
+{'loss': 0.6219, 'learning_rate': 8.990825688073395e-06, 'epoch': 0.55}
+{'loss': 0.6198, 'learning_rate': 8.073394495412845e-06, 'epoch': 0.6}
+{'loss': 0.643, 'learning_rate': 7.155963302752295e-06, 'epoch': 0.64}
+{'loss': 0.6198, 'learning_rate': 6.238532110091744e-06, 'epoch': 0.69}
+{'loss': 0.6243, 'learning_rate': 5.3211009174311936e-06, 'epoch': 0.73}
+{'loss': 0.631, 'learning_rate': 4.403669724770643e-06, 'epoch': 0.78}
+{'loss': 0.6269, 'learning_rate': 3.486238532110092e-06, 'epoch': 0.82}
+{'loss': 0.6023, 'learning_rate': 2.5688073394495415e-06, 'epoch': 0.87}
+{'loss': 0.6309, 'learning_rate': 1.6513761467889911e-06, 'epoch': 0.92}
+{'loss': 0.618, 'learning_rate': 7.339449541284405e-07, 'epoch': 0.96}
+{'eval_loss': 0.623303234577179, 'eval_accuracy': 0.6885456885456885, 'eval_f1': 0.8155487804878049, 'eval_runtime': 13.9758, 'eval_samples_per_second': 55.596, 'eval_steps_per_second': 55.596, 'epoch': 1.0}
+{'train_runtime': 281.0381, 'train_samples_per_second': 24.865, 'train_steps_per_second': 0.776, 'train_loss': 0.6314176397586088, 'epoch': 1.0}
+输入：我觉得这家酒店不错，饭很好吃！
+模型预测结果:好评！
+Xformers is not installed correctly. If you want to use memory_efficient_attention to accelerate training use the following command to install Xformers
