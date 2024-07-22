@@ -6,7 +6,21 @@
 
 ## 代码适配
 
-- transformers==4.36.2
+- torch==2.2.1+cu118
+
+- transformers==4.42.4
+
+- peft==0.11.1
+
+- datasets==2.20.0
+
+- accelerate==0.32.1
+
+- bitsandbytes==0.43.1
+
+- faiss-cpu==1.7.4
+
+- tensorboard==2.14.0
 
 # 课程规划
 
@@ -172,7 +186,7 @@
 
    - 视频地址：[Bilibili](https://www.bilibili.com/video/BV1DQ4y1t7e8) | [YouTube](https://www.youtube.com/watch?v=CY0jTExZlKE)
 
-## Transformers 分布式训练篇
+## Transformers 分布式训练篇（已更新完成）
 
 - 28 分布式训练基础与环境配置
 
@@ -180,7 +194,27 @@
 
 - 29 Data Parallel原理与应用
 
-   - 视频地址：[Bilibili](https://www.bilibili.com/video/BV1qN4y1n7iG/) | [YouTube](https://www.youtube.com/watch?v=WiRpMjHL79s)
+   - 视频地址：[Bilibili](https://www.bilibili.com/video/BV1qN4y1n7iG) | [YouTube](https://www.youtube.com/watch?v=WiRpMjHL79s)
+
+- 30 Distributed Data Parallel原理与应用
+
+   - 视频地址：[Bilibili](https://www.bilibili.com/video/BV1wS421w7ug) | [YouTube](https://www.youtube.com/watch?v=hoa-AIE_yxk)
+
+- 31 Accelerate 分布式训练入门
+
+   - 视频地址：[Bilibili](https://www.bilibili.com/video/BV12Z421t74R) | [YouTube](https://www.youtube.com/watch?v=eDaT_bBoiJ4)
+
+- 32 Accelerate 使用进阶（上）
+
+   - 视频地址：[Bilibili](https://www.bilibili.com/video/BV1vq421F7Cf) | [YouTube](https://www.youtube.com/watch?v=IhpuxmYoKgI)
+
+- 32 Accelerate 使用进阶（下）
+
+   - 视频地址：[Bilibili](https://www.bilibili.com/video/BV1Lp421975B) | [YouTube](https://www.youtube.com/watch?v=WmZ94u9QDME)
+
+- 33 Accelerate + Deepspeed
+
+   - 视频地址：[Bilibili](https://www.bilibili.com/video/BV1hb421E7WY) | [YouTube](https://www.youtube.com/watch?v=Vegqv1PDboY)
 
 ## Transformers 番外技能篇
 
